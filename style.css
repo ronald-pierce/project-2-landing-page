@@ -1,0 +1,175 @@
+#search {
+  width: 50px;
+  padding: 20px;
+  margin: 10px;
+}
+
+#home {
+  width: 50px;
+  padding: 20px;
+  margin: 10px;
+}
+
+#services {
+  width: 50px;
+  padding: 20px;
+  margin: 10px;
+}
+
+#menu {
+  width: 50px;
+  padding: 20px;
+  margin: 10px;
+}
+
+#content {
+  width: 50px;
+  padding: 20px;
+  margin: 10px;
+}
+
+#pepper {
+  width: 1100px;
+  padding: 60px;
+  margin: 30px;
+  background-color: blue;
+}
+
+#stander {
+  width: 500px;
+  padding: 60px;
+  margin: 30px;
+  background-color: #EB1A1D;
+}
+
+#veggie {
+  width: 500px;
+  padding: 60px;
+  margin: 30px;
+  margin-left: auto;
+  width: 50%;
+  background-color: #ED9212;
+}
+
+#limited {
+  width: 500px;
+  padding: 60px;
+  margin: 30px;
+  background-color: #EB1A1D;
+}
+
+h1 {
+  font-family: Playfair Display; san serif;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: Playfair Display; san serif;
+  font-size: 40px
+}
+
+h3 {
+  font-family: Playfair Display; san serif;
+  font-size: 18px 
+}
+
+p {
+  font-family: Playfair Display; san serif;
+  font-size: 30px;
+}
+
+ol {
+  font-family: Playfair Display; san serif;
+  font-size: 30px;
+}
+
+* {margin: 0; 
+  Padding: 0;
+box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar {background-color: #1B5E20; padding: 1rem 2rem;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 1.20rem;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link {
+  color: #0277BD;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: orange;
+}
+
+.nav-link:focus {
+  outline: 2px solid #0277BD;
+  outline-offset: 2px;
+}
+
+.nav-link:active {
+  transform: scale(0.98);
+}
+
+.nav-link[aria-current="page"] {
+ background-color: #F57C00;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .nav-menu {
+    flex-direction: column;
+    width: 100%;
+    gap: 3;
+  }
+  
+  .nav-link {
+    width: 100%;
+    padding: 0.61rem;
+  }
+  
+  .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  }
